@@ -1,0 +1,1 @@
+Applicants for the front end website development track are expected to submitted their solution in this folder via pull request.
