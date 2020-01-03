@@ -63,7 +63,7 @@ button {
 }
 
 button:hover {
-  background-color: #A94FC0;
+  background-color: #a94fc0;
   color: #ffffff;
 }
 
@@ -81,70 +81,68 @@ button:hover {
 }
 
 @media only screen and (max-width: 1035px) {
-    .icons {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
+  .icons {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 @media only screen and (max-width: 720px) {
   .content {
-  display: grid;
-  grid-template-columns: 1fr;
-  color: white;
-}
+    display: grid;
+    grid-template-columns: 1fr;
+    color: white;
+  }
 
-.logo img {
-  margin: 4rem 2rem;
-  width: 200px;
-}
+  .logo img {
+    margin: 4rem 2rem;
+    width: 200px;
+  }
 
-.grid-two {
-  text-align: center;
-  margin-top: 3rem;
-}
+  .grid-two {
+    text-align: center;
+    margin-top: 3rem;
+  }
 
-.grid-two h1 {
-  font-size: 2.5rem;
-  margin-top: 2rem;
-  font-family: "Poppins", sans-serif;
-}
+  .grid-two h1 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    font-family: "Poppins", sans-serif;
+  }
 
-.grid-two p {
-  font-size: 1rem;
-}
+  .grid-two p {
+    font-size: 1rem;
+  }
 
-.icons {
-  float: none;
-  text-align: center;
-  margin: 3rem 0;
-}
-
+  .icons {
+    float: none;
+    text-align: center;
+    margin: 3rem 0;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .grid-two h1 {
-  font-size: 1.5rem;
-  margin-top: 2rem;
-  font-family: "Poppins", sans-serif;
-}
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-family: "Poppins", sans-serif;
+  }
 
-.grid-two p {
-  font-size: 0.5rem;
-}
+  .grid-two p {
+    font-size: 0.5rem;
+  }
 
-.grid-two {
-  text-align: center;
-  margin-top: 2.5rem;
-}
+  .grid-two {
+    text-align: center;
+    margin-top: 2.5rem;
+  }
 
-button {
-margin-top: 10px;
-}
+  button {
+    margin-top: 10px;
+  }
 
-.logo img {
-  margin: 2rem;
-  width: 100px;
-}
-
+  .logo img {
+    margin: 2rem;
+    width: 100px;
+  }
 }
