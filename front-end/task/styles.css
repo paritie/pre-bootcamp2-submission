@@ -63,7 +63,8 @@ button {
 }
 
 button:hover {
-  background-color: darkgrey;
+  background-color: #A94FC0;
+  color: #ffffff;
 }
 
 .fab {
