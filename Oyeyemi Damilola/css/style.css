@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+    padding: 5%;
+    background-image: url(../../front-end/task/images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
