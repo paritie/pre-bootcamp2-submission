@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('images/bg-desktop.svg') repeat;
+}
+
+body:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background: -webkit-radial-gradient(rgba(111, 5, 138, 1) 0%, rgba(107, 2, 177, 0.76) 0%);
+}
+
+.content {
+    display: grid;
+  grid-template-columns: auto auto;
+}
