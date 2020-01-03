@@ -1,7 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('images/bg-desktop.svg') repeat;
+  box-sizing: border-box;
+  background-color: #674bb1;
+  background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 body:before {
@@ -12,10 +16,65 @@ body:before {
   z-index: -1;
   top: 0;
   left: 0;
-  background: -webkit-radial-gradient(rgba(111, 5, 138, 1) 0%, rgba(107, 2, 177, 0.76) 0%);
+  background: url("images/bg-desktop.svg");
+}
+
+.logo img {
+  margin: 2rem;
+  width: 150px;
 }
 
 .content {
-    display: grid;
-  grid-template-columns: auto auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+}
+
+.grid-one {
+  padding: 0 40px;
+  height: 80%;
+}
+
+.grid-one img {
+  width: 100%;
+  height: 130%;
+}
+
+.grid-two {
+  padding: 0 40px;
+  height: 80%;
+}
+
+.grid-two h1 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.grid-two p {
+  font-size: 1rem;
+}
+
+button {
+  padding: 1rem 4rem;
+  border-radius: 2rem;
+  border: 1px solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+  background-color: darkgrey;
+}
+
+.fab {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 0 0.4rem;
+  color: #ffffff;
+}
+
+.icons {
+  float: right;
+  margin-right: 6rem;
 }
