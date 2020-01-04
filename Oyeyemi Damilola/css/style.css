@@ -5,10 +5,49 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    margin: 0px;
-    padding: 5%;
+    padding-top: 1px;
+    padding: 4%;
+    padding-top: 2%;
     background-image: url(../../front-end/task/images/bg-desktop.svg);
     background-color: hsl(257, 40%, 49%);
+    color: white;
+}
+header{
+    margin-top: 0;    
+    margin-bottom: 3%;
+}
+.huddle-logo{
+    width: 12rem;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3%;
+}
+.page-description h1{
+    padding-top: 28px;
+    font-weight: 700;
+    font-size: 28pt;
+    margin-bottom: 20px;
+}
+.page-description h6{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10%;
+    font-weight: lighter;
+    font-size: 12pt;
+    height: 70px;
+    width: 105%;
+    word-spacing: 0.1rem;
+}
+.register-button a{
+    color:  hsl(257, 40%, 49%);
+    padding: 15px 65px 15px 65px;
+    font-size: 12pt;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: whitesmoke;
+    box-shadow:  0px 2px 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -35,5 +74,4 @@ h4,
 h5,
 h6{
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
 }
