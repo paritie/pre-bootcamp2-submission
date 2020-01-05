@@ -5,17 +5,163 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   
   <title>Home</title>
+<style>
+  *{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+  @media screen and (max-width: 1440px){
+    body{
+      background-image: url("images/bg-desktop.svg");
+      background-color: rgb(103, 75, 177);
+      background-repeat: no-repeat;
+    }
+    .logodiv img{
+      padding:40px;
+      width:18%;
+    }
+    
+    .picture{
+      padding:30px 30px 0 30px;
+      height:80%;
+      float:left;
+    }
+  
+    h2{
+     font-family: 'Poppins', sans-serif;
+     color:#FEFCFF;
+     font-size: 2.25em;
+     font-weight: 700;
+  }
+    .write-up{
+      padding:50px 100px 0 50px;
+    }
+    p{
+    padding-top:30px;
+    color:#FEFCFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.9em;
+  }
+  .register{
+    padding-top: 20px;
+  }
+  button{
+    color:#9386BB;
+    font-family: 'Poppins', sans-serif;
+    width:12%;
+    padding: 10px 10px;
+    border-radius:50px;
+    box-shadow: 0px 3px 3px 0px #543D8F;
+    border-style: none;
+  }
+  .sm-icons{
+    margin-left:1100px;
+
+  }
+  .sm-icons i{
+    color: #FEFCFF;
+    border:1px solid #FEFCFF; 
+    border-radius:50%;
+    padding:10px;
+    margin-left: 10px;
+  }
+  }
+  @media screen and (max-width: 375px) {  
+  body{
+    background: url("images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-color:rgb(103, 75, 177) ;  
+  }
+  .logodiv img{
+    width:40%;
+    padding: 30px 0 0 40px; 
+  }
+  .picture{
+    height:100%;
+    padding:57px 30px 40px 30px;
+    float:none;
+  }
+  .picture img{
+    width:97%;
+  }
+  h2{
+     font-family: 'Poppins', sans-serif;
+     color:#FEFCFF;
+     text-align: center;
+     padding:20px 30px 0 30px;
+     font-weight: 700;
+     font-size: 1.5em;
+  }
+  .write-up{
+    padding:15px;
+  }
+  p{
+    text-align: center;
+    color:#FEFCFF;
+    padding: 10px 20px 0 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1em;
+  }
+  .register{
+    padding-top: 10px;
+  }
+  button{
+    color:#B2A5D3;
+    font-family: 'Poppins', sans-serif;
+    width:40%;
+    margin-left: 110px;
+    padding: 5px 0 5px 0;
+    border-radius:50px;
+    border-style: none;
+    box-shadow: 0px 3px 3px 0px #543D8F;
+  }
+  .sm-icons{
+    margin-left:90px;
+    padding:30px;
+  }
+  .sm-icons i{
+    color:#FEFCFF;
+    padding:10px;
+    margin-left:5px;
+    border:1px solid #FEFCFF; 
+    border-radius:50%;
+  }
+  }
+  
+</style>
 </head>
 <body>
-
-Your journey to world class continues...
-
+<div class="logodiv">
+  <img src="images/logo.svg" alt="logo">
+</div>
+<!--<div class="middle-div">-->
+<div class="picture">
+  <img src="images/illustration-mockups.svg" alt="mockups">
+</div>
+<div class="write-up">
+  <h2>Build The Community Your Fans Will Love</h2>
+  <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you
+    engage in genuine discussion.</p>
+</div>
+<div class="register">
+  <button href="">Register</button>
+</div>
+<div style="clear: both;"></div>
   <footer>
+    <div class="sm-icons">
+    <a href="https://web.facebook.com/elo.agbawe1"><i class="fab fa-facebook-f fa-xs"></i></a>
+    <a href="https://twitter.com/Typical_elo"><i class="fab fa-twitter fa-xs"></i></a>
+    <a href="https://www.instagram.com/elo_agbawe/"><i class="fab fa-instagram fa-xs"></i></a>
+  </div>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Elo Agbawe</a>.
     </p>
   </footer>
 </body>
