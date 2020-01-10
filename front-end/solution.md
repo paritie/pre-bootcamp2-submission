@@ -1,2 +1,1 @@
-
-https://github.com/cre8tcodes/pre-bootcamp2-submission
+https://cre8tcodes.github.io/pre-bootcamp2-submission/
